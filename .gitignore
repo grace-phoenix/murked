@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore certbot certificates
+.sectrets/
+
+.sectrets/db_link.txt
+
 # C extensions
 *.so
 
